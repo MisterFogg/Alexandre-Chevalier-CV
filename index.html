@@ -13,7 +13,7 @@
 
 <body>
     <header class="header">
-        <a href="assets/images/profile.jpg" target="_blank"><img src="assets/images/profile.jpg" alt="photo de profil" class="profil-picture"></a>
+        <a href="assets/images/profile.jpg"><img src="assets/images/profile.jpg" alt="photo de profil" class="profil-picture"></a>
         <div class="container">
         <h1>Chevalier Alexandre</h1>
         <h2>Développeur Web et Web Mobile</h2>
@@ -22,10 +22,13 @@
             <ul>
                 <li><a href="mailto:JohnDoe@email.com"><i class="fa-solid fa-envelope"></i> Mail</a></li>
                 <li><a href="tel:0606060606"><i class="fa-solid fa-phone"></i> Téléphone</a></li>
+            </ul>
+            <ul>
                 <li><a href="https://maps.app.goo.gl/hqqqBZZPumnkkEoB6" target="_blank"><i class="fa-solid fa-house"></i> Adresse</a></li>
-                <li><i class="fa-solid fa-car"></i> Permis B</li>
+                <li><a href="permis"><i class="fa-solid fa-car"></i> Permis B</a></li>
             </ul>
         </address>
+        </div>
     </header>
 
     <main class="main-content">
@@ -62,13 +65,20 @@
                     <i class="fa-regular fa-star"></i></span></li>
                 </ul>
             </section>
-            <section class="langues">
-            <h3>Langues</h3>
-            <ul>
-                <li>Français Langue maternelle</li>
-                <li>Anglais Professionnel</li>
-                <li>Allemand Notions</li>
-            </ul>
+            <section>
+                <h3>Langues</h3>
+                <div class="langues">
+                <ul>
+                    <li><span>Français</span></li>
+                    <li><span>Anglais</span></li>
+                    <li><span>Allemand</span></li>
+                </ul>
+                <ul class="langues-info">
+                    <li>Langue maternelle</li>
+                    <li>Professionnel</li>
+                    <li>Notions</li>
+                </ul>
+                </div>
             </section>
             <section class="qualites">
             <h3>Qualités</h3>
@@ -91,36 +101,36 @@
         <div class="content">
         <section class="profil">
             <h3>Profil</h3>
-            <p>Jeune diplômé en développement Web et Web mobile, avec une formation pratique en création de sites web dynamiques et réactifs.
-                je maîtrise les langages de balisage HTML et CSS ainsi que les outils de gestion de version comme GitHub.
-                Ayant récemment obtenu mon titre professionnel DWWM, je suis passionné par les projets GreenTech et les solutions numériques écoresponsables.
-                Mon objectif est de rejoindre une start-up innovante pour mettre en pratique mes compétences en développement web tout en contribuant à des projets à impact positif.
-            </p>
+
+                <p>Jeune diplômé en développement Web et Web mobile, avec une formation pratique en création de sites web dynamiques et réactifs.<br>
+                je maîtrise les langages de balisage HTML et CSS ainsi que les outils de gestion de version comme GitHub.<br>
+                Ayant récemment obtenu mon titre professionnel DWWM, je suis passionné par les projets GreenTech et les solutions numériques écoresponsables.<br>
+                Mon objectif est de rejoindre une start-up innovante pour mettre en pratique mes compétences en développement web tout en contribuant à des projets à impact positif.<br>
+                </p>
         </section>
         <section class="formations">
             <h3>Formations</h3>
             <ul>
-                <li><span>Titre Professionnel DWWM</span>
+                <li><span class="bold">Titre Professionnel DWWM</span>
                 <span class="style">Centre Européen de Formation</span>
                 <span class="date">2024/2025</span></li>
 
-                <li><span>Brevet Professionnel Hotellerie</span>
-                    <span class="style">Lycée de la ville</span>
-                    <span class="date">2011/2015</span></li>
+                <li><span class="bold">Brevet Professionnel Hotellerie</span>
+                <span class="style">Lycée de la ville</span>
+                <span class="date">2011/2015</span></li>
 
-                <li><span>Baccalauréat Professionnel-ELEEC</span>
+                <li><span class="bold">Baccalauréat Professionnel-ELEEC</span>
                 <span class="style">Lycée de la Ville</span>
-                <span class="date">2011</span></li>
+                <span class="date">2011</span></li>  
             </ul>
         </section>
         <section class="stages">
             <h3>Stages</h3>
             <ul>
-                <li><span>Restauration</span>
+                <li><span class="bold">Restauration</span>
                 <span class="style">Restaurant de la ville</span>
                 <span class="date">2014</span></li>
-
-                <li><span>Electrotechnique-Marine Nationale</span>
+                <li><span class="bold">Electrotechnique-Marine Nationale</span>
                 <span class="style">Sud de la France</span>
                 <span class="date">2010</span></li>
             </ul>
@@ -128,11 +138,11 @@
         <section class="experience">
             <h3>Experience Professionnel</h3>
             <ul>
-                <li><span>Barman</span>
+                <li><span class="bold">Barman</span>
                 <span class="style">Restaurant de la ville</span>
                 <span class="date">2016/2024</span></li>
 
-                <li><span>Serveur</span>
+                <li><span class="bold">Serveur</span>
                 <span class="style">Hotel de la Ville</span>
                 <span class="date">2011/2015</span></li>
             </ul>
