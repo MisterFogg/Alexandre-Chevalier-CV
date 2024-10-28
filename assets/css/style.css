@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+
+
+body {
+    max-width: 1160px;
+    background-color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.header {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #17abb3;
+    color: #ffffff;
+    padding: 20px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.profil-picture {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin-left: -200px;
+    cursor: zoom-in;
+}
+
+.header h1 {
+    margin: 0;
+} 
+
+
+.header h2 {
+    margin: 0;
+
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact-info li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.contact-info ul li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.contact-info li i {
+    color: #ffffff;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.competences ul li {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.langues {
+    display: flex;
+    justify-content: space-between;
+}
+
+.langues li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.langues span {
+    font-weight: bold;
+
+}
+
+.qualites li {
+    list-style-type: none;
+
+}
+.qualites li:before {
+    content: "\25FC";
+    color: #17abb3;
+}
+
+.interets li {
+    list-style-type: none;
+
+}
+
+.interets li:before {
+    content: "\25FC";
+    color: #17abb3;
+}
+.content {
+    padding: 20px;
+    flex: 3;
+}
+
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #17abb3;
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 5px;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.style {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.formations li {
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid transparent;
+    
+
+}
+
+.formations li:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+    
+}
+
+.stages li {
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid transparent;
+
+}
+
+.stages li:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+}
+
+.experience li {
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid transparent;
+
+}
+
+.experience li:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+}
+
+
+.date {
+    font-weight: bold;
+    color: #17abb3;
+    text-align: right;
+
+}
+
+a {
+    color: #17abb3;
+    text-decoration: none;
+
+}
+
+
+a:hover {
+    opacity: 0.7;
+
+}
+
+footer {
+    background-color: #17abb3;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 20px 0;
+
+}
+
+.social-media a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5em;
+
+}
+
+.stars {
+    color: #17abb3;
+}
+
+.qualites ul {
+    list-style-type: square #17abb3;
+}
